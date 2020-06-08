@@ -1,0 +1,185 @@
+.html-bone{
+  font-family: 'Montserrat';
+  text-align: center ;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat-bold';
+}
+.discription{
+  font-family: 'Montserrat-black'
+}
+
+/* navigation bar */
+
+
+
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem !important;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px ;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.navbar{
+  padding: 0 0 4.5rem !important;
+}
+.container-fluid{
+  padding: 7% 10% !important;
+}
+#title .container-fluid{
+  padding: 3% 15% 7% !important;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+.iphone{
+  width: 50%;
+  position: absolute;
+  right: 20%;
+  transform: rotate(25deg);
+}
+
+
+
+
+/* Headings section*/
+
+
+
+.big-heading{
+  font-family: 'Montserrat-black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* Pricing section */
+
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#pricing{
+  padding: 100px;
+}
+.pricing-col{
+  padding: 5% 10%;
+}
+
+
+/* Testimonials section */
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#testimonials{
+  background-color: orange;
+  color: white;
+}
+.testimonial-image{
+  width: 100px;
+  border-radius: 100%;
+  margin: 70px;
+}
+.dog{
+  width: 100px;
+  border-radius: 100%;
+  margin: 70px;
+}
+
+/* features section */
+
+#feature{
+  background-color: white;
+  position: relative;
+}
+.feature-text{
+  font-size: 1.5rem;
+}
+.fas{
+  font-size: 5rem;
+  color: orange;
+  padding: 10px 0 10px 0;
+}
+.fas:hover{
+  color: crimson;
+}
+#col1{
+  margin: 5% auto;
+}
+#col2{
+  margin: 5% auto;
+}
+#col3{
+  margin: 5% auto;
+}
+
+/* press section */
+
+#press{
+  background-color: orange;
+}
+.press_img{
+  position: relative;
+  bottom: 90px;
+  width: 10%;
+  margin: 0 40px;
+}
+
+/* footer section */
+
+#footer .container-fluid{
+  padding: 3% 10% !important;
+}
+#footer{
+  background-color: white;
+}
+.icons{
+  margin: 15px;
+}
+#footer .discription{
+  font-size: 1.3rem;
+}
+
+/* cta section */
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+}
+
+#cta .big-heading{
+  font-size: 4.5rem;
+}
+
+/* buttons section */
+
+.btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* media query */
+@media (max-width: 1028px) {
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
